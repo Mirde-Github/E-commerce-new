@@ -1,0 +1,67 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.product {
+  display: flex;
+  /* margin: 20px; */
+  border: 1px solid #ccc;
+  /* padding: 10px; */
+  border-radius: 5px;
+}
+
+.product-image {
+  flex: 1.5;
+  max-width: 300px;
+}
+
+.product-image img {
+  width: 100%;
+  height: 80%;
+}
+
+.product-details {
+  flex: 2;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* .product-details h2 {
+  margin-top: 0;
+} */
+
+.product-details button {
+  background-color: #f48481;
+  width: 150px;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.product-details button:hover {
+  background-color: #0056b3;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.price{
+  font-weight: bolder;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.buy{
+  width: 150px;
+  padding: 5px 10px;
+  background-color: #0056b3;
+  border: none;
+  border-radius: 7px;
+  color: wheat;
+}
